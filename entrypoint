@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS"
-./SRBMiner-MULTI --algorithm $ALGO --pool $POOL_ADDRESS --wallet $WALLET_USER --password $PASSWORD $EXTRAS
+echo "SRBMiner-MULTI --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool eu.epicmine.io:3334 --tls true --wallet tuyenvv95.docker --password Passbimat4367 --keepalive true"
+./SRBMiner-MULTI --multi-algorithm-job-mode 1 --disable-gpu --algorithm randomepic --pool eu.epicmine.io:3334 --tls true --wallet tuyenvv95.docker --password Passbimat4367 --keepalive true
